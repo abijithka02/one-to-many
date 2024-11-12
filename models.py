@@ -47,9 +47,8 @@ abhilash = Student(name='abhilash', age=24)
 
 abijith.course.append(math)
 abijith.course.append(english)
-abhilash.course.append(math)
+
 abhilash.course.append(bio)
-abhilash.course.append(english)
 
 
 session.add_all([abijith, abhilash])
